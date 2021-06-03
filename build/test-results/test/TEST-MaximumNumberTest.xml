@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MaximumNumberTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-03T15:31:12" hostname="ANUJ-TUF" time="0.07">
+  <properties/>
+  <testcase name="givenThreeInteger_WithMaxAtFirstPlace_RetrunMaximum()" classname="MaximumNumberTest" time="0.061"/>
+  <testcase name="givenThreeeInteger_WithMaxAtSecondPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.003"/>
+  <testcase name="givenThreeInteger_WithMaxAtThirdPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
