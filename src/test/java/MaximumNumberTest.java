@@ -40,4 +40,22 @@ public class MaximumNumberTest {
         Assertions.assertEquals(3.5f, maximum);
     }
 
+    @Test
+    void givenThreeString_WithMaxAtFirst_ReturnMaximum() {
+        String maximum = MaximumNumber.maximumString("abcd", "abc", "ab");
+        Assertions.assertEquals("abcd", maximum);
+    }
+
+    @Test
+    void givenThreeString_WithMaxAtSecond_ReturnMaximum() {
+        String maximum = MaximumNumber.maximumString("abc", "abcd", "ab");
+        Assertions.assertEquals("abcd", maximum);
+    }
+
+    @Test
+    void givenThreeString_WithMaxAtThird_ReturnMaximum() {
+        String maximum = MaximumNumber.maximumString("abcd", "abc", "abcdef");
+        Assertions.assertEquals("abcdef", maximum);
+    }
+
 }

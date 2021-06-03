@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MaximumNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-03T15:49:51" hostname="ANUJ-TUF" time="0.073">
+<testsuite name="MaximumNumberTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-03T16:07:06" hostname="ANUJ-TUF" time="0.095">
   <properties/>
-  <testcase name="givenThreeFloat_WithMaxAtThirdPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.073"/>
+  <testcase name="givenThreeString_WithMaxAtThird_ReturnMaximum()" classname="MaximumNumberTest" time="0.062"/>
+  <testcase name="givenThreeFloat_WithMaxAtFirstPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.002"/>
+  <testcase name="givenThreeInteger_WithMaxAtFirstPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.003"/>
+  <testcase name="givenThreeFloat_WithMaxAtThirdPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.003"/>
+  <testcase name="givenThreeInteger_WithMaxAtThirdPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.003"/>
+  <testcase name="givenThreeFloat_WithMaxAtSecondPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.002"/>
+  <testcase name="givenThreeString_WithMaxAtSecond_ReturnMaximum()" classname="MaximumNumberTest" time="0.003"/>
+  <testcase name="givenThreeString_WithMaxAtFirst_ReturnMaximum()" classname="MaximumNumberTest" time="0.003"/>
+  <testcase name="givenThreeInteger_WithMaxAtSecondPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
