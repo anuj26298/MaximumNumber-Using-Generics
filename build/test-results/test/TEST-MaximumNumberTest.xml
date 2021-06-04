@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MaximumNumberTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-03T16:07:06" hostname="ANUJ-TUF" time="0.095">
+<testsuite name="MaximumNumberTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-04T05:03:40" hostname="ANUJ-TUF" time="0.029">
   <properties/>
-  <testcase name="givenThreeString_WithMaxAtThird_ReturnMaximum()" classname="MaximumNumberTest" time="0.062"/>
-  <testcase name="givenThreeFloat_WithMaxAtFirstPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.002"/>
-  <testcase name="givenThreeInteger_WithMaxAtFirstPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.003"/>
-  <testcase name="givenThreeFloat_WithMaxAtThirdPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.003"/>
-  <testcase name="givenThreeInteger_WithMaxAtThirdPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.003"/>
-  <testcase name="givenThreeFloat_WithMaxAtSecondPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.002"/>
-  <testcase name="givenThreeString_WithMaxAtSecond_ReturnMaximum()" classname="MaximumNumberTest" time="0.003"/>
-  <testcase name="givenThreeString_WithMaxAtFirst_ReturnMaximum()" classname="MaximumNumberTest" time="0.003"/>
-  <testcase name="givenThreeInteger_WithMaxAtSecondPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.002"/>
+  <testcase name="givenThreeString_WithMaxAtThird_ReturnMaximum()" classname="MaximumNumberTest" time="0.021"/>
+  <testcase name="givenThreeFloat_WithMaxAtFirstPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.001"/>
+  <testcase name="givenThreeInteger_WithMaxAtFirstPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.001"/>
+  <testcase name="givenThreeFloat_WithMaxAtThirdPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.001"/>
+  <testcase name="givenThreeInteger_WithMaxAtThirdPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.0"/>
+  <testcase name="givenThreeFloat_WithMaxAtSecondPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.0"/>
+  <testcase name="givenThreeString_WithMaxAtSecond_ReturnMaximum()" classname="MaximumNumberTest" time="0.0"/>
+  <testcase name="givenThreeString_WithMaxAtFirst_ReturnMaximum()" classname="MaximumNumberTest" time="0.0"/>
+  <testcase name="givenThreeInteger_WithMaxAtSecondPlace_ReturnMaximum()" classname="MaximumNumberTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
