@@ -60,55 +60,70 @@ public class MaximumNumberTest {
 
     @Test
     void givenThreeInteger_WithMaxAtFirstPlace_ReturnMaximum_GenericTest() {
-        MaximumNumber maximumNumber = new MaximumNumber(3,2,1);
+        MaximumNumber<Integer> maximumNumber = new MaximumNumber<>(3,2,1);
         Assertions.assertEquals(3, maximumNumber.testMaximumNumber());
     }
     @Test
     void givenThreeInteger_WithMaxAtSecondPlace_ReturnMaximum_GenericTest() {
-        MaximumNumber maximumNumber = new MaximumNumber(2,3,1);
+        MaximumNumber<Integer> maximumNumber = new MaximumNumber<>(2,3,1);
         Assertions.assertEquals(3, maximumNumber.testMaximumNumber());
     }
     @Test
     void givenThreeInteger_WithMaxAtThirdPlace_ReturnMaximum_GenericTest() {
-        MaximumNumber maximumNumber = new MaximumNumber(1,2,3);
+        MaximumNumber<Integer> maximumNumber = new MaximumNumber<>(1,2,3);
         Assertions.assertEquals(3, maximumNumber.testMaximumNumber());
     }
 
     @Test
     void givenThreeFloat_WithMaxAtFirstPlace_ReturnMaximum_GenericTest() {
-        MaximumNumber maximumNumber = new MaximumNumber(3.3f,3.2f,3.1f);
+        MaximumNumber<Float> maximumNumber = new MaximumNumber<>(3.3f,3.2f,3.1f);
         Assertions.assertEquals(3.3f, maximumNumber.testMaximumNumber());
     }
 
     @Test
     void givenThreeFloat_WithMaxAtSecondPlace_ReturnMaximum_GenericTest() {
-        MaximumNumber maximumNumber = new MaximumNumber(3.2f,3.3f,3.1f);
+        MaximumNumber<Float> maximumNumber = new MaximumNumber<>(3.2f,3.3f,3.1f);
         Assertions.assertEquals(3.3f, maximumNumber.testMaximumNumber());
     }
 
     @Test
     void givenThreeFloat_WithMaxAtThirdPlace_ReturnMaximum_GenericTest() {
-        MaximumNumber maximumNumber = new MaximumNumber(3.1f,3.2f,3.3f);
+        MaximumNumber<Float> maximumNumber = new MaximumNumber<>(3.1f,3.2f,3.3f);
         Assertions.assertEquals(3.3f, maximumNumber.testMaximumNumber());
     }
 
     @Test
     void givenThreeString_WithMaxAtFirstPlace_ReturnMaximum_GenericTest() {
-        MaximumNumber maximumNumber = new MaximumNumber("abcd","abc", "ab");
+        MaximumNumber<String> maximumNumber = new MaximumNumber<>("abcd","abc", "ab");
         Assertions.assertEquals("abcd", maximumNumber.testMaximumNumber());
     }
     @Test
     void givenThreeString_WithMaxAtSecondPlace_ReturnMaximum_GenericTest() {
-        MaximumNumber maximumNumber = new MaximumNumber("abc","abcd", "ab");
+        MaximumNumber<String> maximumNumber = new MaximumNumber<>("abc","abcd", "ab");
         Assertions.assertEquals("abcd", maximumNumber.testMaximumNumber());
     }
 
     @Test
     void givenThreeString_WithMaxAtThirdPlace_ReturnMaximum_GenericTest() {
-        MaximumNumber maximumNumber = new MaximumNumber("abc","ab", "abcd");
+        MaximumNumber<String> maximumNumber = new MaximumNumber<>("abc","ab", "abcd");
         Assertions.assertEquals("abcd", maximumNumber.testMaximumNumber());
     }
 
+    @Test
+    void givenIntegerInput_ReturnMaximum_GenericTest() {
+        Integer maximum = MaximumNumber.maximumValue(1, 2, 3, 6, 8, 4, 9);
+        Assertions.assertEquals(9, maximum);
+    }
 
+    @Test
+    void givenFloatrInput_ReturnMaximum_GenericTest() {
+        Float maximum = MaximumNumber.maximumValue(1.1f, 2.2f, 3.3f, 6.6f, 8.8f, 4.4f, 9.9f);
+        Assertions.assertEquals(9.9f, maximum);
+    }
 
+    @Test
+    void givenStringInput_ReturnMaximum_GenericTest() {
+        String maximum = MaximumNumber.maximumValue("abc", "abcd", "abcdefgh", "abcde");
+        Assertions.assertEquals("abcdefgh", maximum);
+    }
 }
